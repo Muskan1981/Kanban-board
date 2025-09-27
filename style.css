@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;1,500&display=swap');
+
+:root{
+    --primary-color: #4a90e2;
+    --secondary-color: #50e3c2;
+    --bg-color: #f4f7fd;
+    --text-color: #333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    /* background-color: #f4f7fd; */
+    /* padding: 20px; */
+    background: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+h1{
+    /* text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: var(--primary-color); */
+    margin: 2rem 0;
+
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline-color: var(--secondary-color);
+    color: var(--primary-color);
+    transition: 0.3s;
+    opacity: 0.5;
+    /* outline: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; */
+}
+
+button:is(:active, :hover){
+    opacity: 1;
+    /* background-color: var(--secondary-color); */
+}
+
+.container{
+    /* max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; */
+
+}
